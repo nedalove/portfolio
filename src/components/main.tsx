@@ -18,8 +18,8 @@ function Main() {
 			<Header />
 			{greeting.view && <Hello />}
 			{skills.view && <Skill />}
-			{experience.view && <Experience />}
-			{openSourceProjects.view && <OpenSource />}
+			{/* {experience.view && <Experience />} */}
+			{/* {openSourceProjects.view && <OpenSource />} */}
 			{projects.view && <Project />}
 			{achievements.view && <Achievement />}
 			{blogs.view && <Blog />}

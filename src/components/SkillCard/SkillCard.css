@@ -10,10 +10,11 @@
     height: 140px;
     transition: 0.3s ease-out;
 }
-.skill-card-main:hover {
-    box-shadow: 0 4px 8px rgba(38, 38, 38, 0.2);
+.skill-card-main:hover {   
+    box-shadow: 5px 5px 5px 5px gray;    
 }
 .skill-card-main .skill-icon {
+    margin-top: 25px;
     font-size: 40px;
 }
 .skill-card-main .skill-text {

@@ -36,16 +36,16 @@ function Header() {
 							Skills
 						</a>
 					</li>}
-					{experience.view && <li className="nav-list" onClick={onClickMenu}>
+					{/* {experience.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#experience">
 							Experience
 						</a>
-					</li>}
-					{openSourceProjects.view && <li className="nav-list" onClick={onClickMenu}>
+					</li>} */}
+					{/* {openSourceProjects.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#opensource">
 							Open Source
 						</a>
-					</li>}
+					</li>} */}
 					{projects.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#project">
 							Projects
