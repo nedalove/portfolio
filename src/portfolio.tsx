@@ -3,7 +3,7 @@ export const greeting = {
 	username: 'Han Kihwan',
 	title: 'Hello I\'m Han Kihwan',
 	subTitle: emoji("❤"),
-	role: "Reversing , Development",
+	role: "Developer",
 	resumeLink: "https://drive.google.com/drive/folders/1X-hw12mswF5gMJWzrVMS26kvah0SNh0Z?usp=sharing",
 	// IMPORTANT
 	// If you don't want to show this, change view to false. DO NOT DELETE!
@@ -25,16 +25,19 @@ export const socialMediaLinks = {
 
 export const skills = {
 	title: emoji("I Can Do ⚡"),
-	subTitle: "Possible language",
+	subTitle: "Possible Skill",
 	describeSkills: [	
 	],
 	// IMPORTANT
 	// You need to find className for font-awesome icon
 	// Go to https://fontawesome.com/ and search icon
 	lists: [
+		{fontAwesome: "fas fa-bug", text: "IDA" },
+		{fontAwesome: "fas fa-bug", text: "x64 DBG" },
+		{fontAwesome: "fas fa-bug", text: "win DBG" },
 		{fontAwesome: "fab fa-contao", text: "C" },
 		{fontAwesome: "fas fa-plus", text: "C++"},
-		{fontAwesome: "fas fa-bug", text: "Assembley"},
+		{fontAwesome: "fas fa-bug", text: "Reversing"},
 		{fontAwesome: "fas fa-code", text: "C#"},
 		{fontAwesome: "fas fa-file-code", text: "MFC"},		
 	],
@@ -88,30 +91,15 @@ export const projects = {
 			url: "https://down.klauncher.kr/"
 		},
 		{
-			title: "Starcraft vulnerability Analysis",
-			desc: "Starcraft vulnerability Analysis https://www.youtube.com/channel/UCcwBIWCTKLNSj9gpQTztUTQ",
-			url: "https://www.youtube.com/channel/UCcwBIWCTKLNSj9gpQTztUTQ"
+			title: "악성코드 분석서",
+			desc: "악성코드 분석서",
+			url: "https://github.com/nedalove/docs"
 		},
 		{
 			title: "Aero Desktop",
 			desc: "Aero Desktop ? In wallpapers video and music can be played on the desktop.",
 			url: "https://www.youtube.com/watch?v=8BxW556GL-I"
-		},
-		{
-			title: "Loling Score",
-			desc: "Loling Score ? Automatic analysis of total before game start",
-			url: "https://youtu.be/LNHVqNUGZJs"
-		},
-		{
-			title: "LOL voice auto pather",
-			desc: "North American voice, Korean voice patch, UI skin automatic application program",
-			url: "https://nedalove.tistory.com/entry/LoL-%EB%B6%81%EB%AF%B8%EC%9D%8C%EC%84%B1-%ED%95%9C%EA%B5%AD%EC%9D%8C%EC%84%B1-%ED%8C%A8%EC%B9%98-UI-%EC%8A%A4%ED%82%A8-%EC%9E%90%EB%8F%99%EC%A0%81%EC%9A%A9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8"
-		},
-		{
-			title: "Sudden Attack Skin Auto Patch",
-			desc: "Sudden Attack Skin Auto Patch",
-			url: ""
-		},
+		},			
 	],
 	view: true
 }
@@ -125,6 +113,12 @@ export const achievements = {
 			alt: "정보처리기사",
 			title: "정보처리기사 🏆",
 			desc: ""
+		},	
+		{
+			img: require("./assets/statistics.png"),
+			alt: "사이트 통계",
+			title: "k런처 관리자 🏆",
+			desc: "하루 사용자 1.5만명 /동접자 1.5천명"
 		},		
 	],
 	view: true
