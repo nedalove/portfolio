@@ -92,7 +92,7 @@ export const projects = {
 		},
 		{
 			title: "악성코드 분석서",
-			desc: "악성코드 분석서",
+			desc: "악성코드 분석서 ",
 			url: "https://github.com/nedalove/docs"
 		},
 		{
