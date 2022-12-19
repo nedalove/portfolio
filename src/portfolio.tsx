@@ -88,7 +88,7 @@ export const projects = {
 		{			
 			title: "kLauncher",
 			desc: "k런처 개발자 site: https://klauncher.kr/",
-			url: "https://klauncher.kr/"
+			url: "https://klauncher.kr/bbs/board.php?bo_table=klauncher"
 		},
 		{
 			title: "악성코드 분석서",
