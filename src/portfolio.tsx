@@ -87,8 +87,8 @@ export const projects = {
 	lists: [
 		{			
 			title: "kLauncher",
-			desc: "Starcraft hack detector developer site: https://klauncher.kr/",
-			url: "https://down.klauncher.kr/"
+			desc: "k런처 개발자 site: https://klauncher.kr/",
+			url: "https://klauncher.kr/"
 		},
 		{
 			title: "악성코드 분석서",
